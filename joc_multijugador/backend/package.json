@@ -1,18 +1,16 @@
 {
-  "name": "projecte-joc-backend",
+  "name": "projecte-joc-backend-local",
   "version": "1.0.0",
-  "description": "Servidor per al joc de tecleig multijugador",
+  "description": "Servidor local per al joc de tecleig",
   "main": "servidor.js",
   "type": "module",
   "scripts": {
-    "start": "node servidor.js",
-    "build": "cd ../frontend/client-joc && npm install && npm run build"
+    "start": "node servidor.js"
   },
   "keywords": [
     "socket.io",
     "vue",
-    "node",
-    "express"
+    "node"
   ],
   "author": "El Teu Nom",
   "license": "ISC",

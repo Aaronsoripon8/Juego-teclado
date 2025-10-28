@@ -1,6 +1,9 @@
 import { io } from 'socket.io-client';
 
-const socket = io('http://localhost:8080', { autoConnect: false });
+// Canviem 'http://localhost:8080' per '/'
+// Això fa que Socket.IO es connecti al mateix domini
+// des del qual s'està servint la pàgina.
+const socket = io('/', { autoConnect: false });
 
 const communicationManager = {
   
@@ -42,4 +45,3 @@ const communicationManager = {
 };
 
 export default communicationManager;
-

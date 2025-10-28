@@ -1,7 +1,8 @@
 {
   "name": "joc-tecleig-frontend",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -12,7 +13,8 @@
     "vue": "^3.4.21"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "5.0.4",
-    "vite": "5.2.8"
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.8"
   }
 }
+

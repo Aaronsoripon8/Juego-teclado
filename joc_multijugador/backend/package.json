@@ -1,0 +1,17 @@
+{
+  "name": "projecte-joc-backend",
+  "version": "1.0.0",
+  "description": "Servidor Socket.IO pel joc de tecleig",
+  "main": "servidor.js",
+  "type": "module",
+  "scripts": {
+    "start": "node servidor.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "author": "",
+  "license": "ISC"
+}
+

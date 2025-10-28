@@ -1,17 +1,24 @@
 {
   "name": "projecte-joc-backend",
   "version": "1.0.0",
-  "description": "Servidor Socket.IO pel joc de tecleig",
+  "description": "Servidor per al joc de tecleig multijugador",
   "main": "servidor.js",
   "type": "module",
   "scripts": {
-    "start": "node servidor.js"
+    "start": "node servidor.js",
+    "build": "cd ../frontend/client-joc && npm install && npm run build"
   },
+  "keywords": [
+    "socket.io",
+    "vue",
+    "node",
+    "express"
+  ],
+  "author": "El Teu Nom",
+  "license": "ISC",
   "dependencies": {
     "express": "^4.19.2",
     "socket.io": "^4.7.5"
-  },
-  "author": "",
-  "license": "ISC"
+  }
 }
 
